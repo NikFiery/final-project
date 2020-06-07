@@ -1,0 +1,187 @@
+.aside__container {
+    background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+    position: relative;
+}
+
+.aside__traingle {
+    position: absolute;
+    top: 43px;
+    left: 45px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+    transform: rotate(90deg);
+}
+
+.aside__menu {
+    display: flex;
+}
+
+.aside__link {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 14px 22px 14px 36px;
+
+}
+
+.aside__link:hover {
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #ffffff;
+    border-radius: 15%;
+}
+
+.aside__link:active {
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #000000;
+    border-radius: 15%;
+}
+
+.aside__link-img {
+    width: 20px;
+    margin: 1px;
+}
+
+.aside__main {
+    display: flex;
+    flex-direction: column;
+
+    .aside__friends {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        overflow: scroll;
+        height: 470px;
+
+        .aside__line {
+            width: 85%;
+            height: 1px;
+            margin: 0 auto;
+            background: #F1F1F1;
+        }
+
+        .aside__person {
+            display: flex;
+            padding: 24px 10px 19px 20px;
+            align-items: center;
+            justify-content: center;
+
+            .information {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-left: 15px;
+                width: 175px;
+
+                h3 {
+                    @include mtext
+                }
+
+                span {
+                    @include ntext;
+                    color: #C8C8C8;
+                }
+            }
+        }
+
+        .aside__person--valera {
+
+            width: 42px;
+        }
+
+        .aside__person:hover {
+            background: #e7e7e7;
+
+        }
+
+    }
+
+    .aside__form {
+        border-top: 1px solid #F1F1F1;
+        border-bottom: 1px solid #F1F1F1;
+        padding: 15px 0;
+        background: #FCFCFC;
+        display: flex;
+        justify-content: center;
+
+        .search__text {
+            border: none;
+            border-bottom: 1px solid #E9E9E9;
+            width: 170px;
+
+        }
+
+        .search__text::placeholder {
+            @include ntext;
+            font-weight: 300;
+            font-size: 10px;
+            color: #C0C0C0;
+
+        }
+
+        .search__submit {
+            background: url(./../../img/header/header-zoom.png) center center no-repeat;
+            width: 20px;
+            height: 20px;
+            border: none;
+            cursor: pointer;
+            margin: 0px 10px;
+        }
+
+        .search__reset {
+            background: url(./../../img/aside/pen.png) center center no-repeat;
+            width: 20px;
+            height: 20px;
+            border: none;
+            cursor: pointer;
+            margin-right: 7px;
+        }
+    }
+
+    .aside__company {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            @include mtext;
+            margin: 27px 0;
+        }
+
+        .aside__links {
+            display: flex;
+            flex-direction: column;
+
+            .aside__links--top {
+                margin: 0 34px;
+                display: flex;
+
+                .aside__link--top {
+
+                    img {
+                        width: 70px;
+                        padding: 8px;
+                    }
+                }
+            }
+
+            .aside__links--bottom {
+                margin: 0 34px;
+                display: flex;
+
+                .aside__link--bottom {
+
+                    img {
+                        width: 70px;
+                        padding: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

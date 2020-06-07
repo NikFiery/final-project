@@ -1,0 +1,58 @@
+@mixin ntext {
+
+    font-family: 'Lato', sans-serif;
+    /*n - navigation*/
+    font-weight: 400;
+    color: #ffffff;
+    font-size: calc(10px + 0.137vw);
+}
+
+@mixin ttext {
+    font-family: 'Lato', sans-serif;
+    /*t - title*/
+    font-weight: bold;
+    color: #777777;
+    font-size: calc(10px + 0.137vw);
+}
+
+@mixin mtext {
+    font-family: 'Lato', sans-serif;
+    /*m - main*/
+    font-weight: bold;
+    color: #777777;
+    font-size: calc(16px + 0.1vw);
+}
+
+@mixin ftext {
+    font-family: 'Lato', sans-serif;
+    /*n - functional*/
+    font-weight: bold;
+    color: #BFBFBF;
+    font-size: calc(10px + 0.137vw);
+}
+
+@mixin btext {
+    font-family: 'Lato', sans-serif;
+    /*b - big-text*/
+    font-weight: 900;
+    color: #777777;
+    font-size: calc(10px + 0.137vw);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    transition: 0.15s;
+    box-shadow: inset 0px 0px 10px 0px #b9b9b9;
+    border-radius: 10%;
+    transform: rotateX(365deg);
+}
+
+button:active {
+    box-shadow: inset 0px 0px 10px 0px #444444;
+    transform: rotateZ(50deg);
+}

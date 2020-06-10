@@ -17,9 +17,7 @@ body {
 
 .wrapper {
     display: flex;
-    width: 100%;
     max-width: 1366px;
-    min-height: 100vh;
     margin: 0 auto;
 
 
@@ -130,6 +128,12 @@ body {
             transition: 0.2s;
         }
 
+        .monthly__points {
+            width: 5px;
+            height: 18px;
+            background: url(../../img/header/header-ellipse.png) center center no-repeat;
+        }
+
     }
 }
 
@@ -149,16 +153,18 @@ body {
 
     h3 {
         @include mtext;
-        padding: 25px 0;
+        padding-bottom: 14px;
     }
 
-    img {
+    .top__hour--img{
         width: 156px;
-
+        height: 161px;
+        background: url(../../img/main/Hour.jpg) center center no-repeat;
+        background-size: cover;
     }
 
-    div {
-        padding: 30px 0;
+    .hour__levels {
+        padding-top: 20px;
 
         .level {
             position: relative;
@@ -348,7 +354,6 @@ body {
 
 /*===task===*/
 .task {
-    /*Исправить это болото тоже*/
     display: flex;
     flex-direction: column;
     background: #ffffff;
@@ -357,11 +362,11 @@ body {
     margin-left: 10px;
     margin-bottom: 10px;
     padding: 20px;
+    justify-content: space-between;
 
     h3 {
         @include mtext;
-        margin-bottom: 14px;
-
+        
     }
 
     ul {
@@ -392,9 +397,7 @@ body {
             .task__btn {
                 width: 17px;
                 height: 17px;
-                border-radius: 50%;
             }
-
 
             .task__btn:hover {
                 background: #EFEFEF;
@@ -456,8 +459,26 @@ body {
         align-items: center;
         background: #ffffff;
 
+
+        .analysis__img--progress{
+            width: 160px;
+            height: 126px;
+            padding: 20px 0;
+            background: url(../../img/main/progress.png) center center no-repeat;
+            background-size: cover;
+        }
+
+        .analysis__img--shipments{
+            width: 207px;
+            height: 126px;
+            padding: 20px 0;
+            background: url(../../img/main/shipments.png) center center no-repeat;
+            background-size: cover;
+        }
+
         h3 {
             @include mtext;
+            padding-bottom: 17px;
         }
 
         img {
@@ -473,6 +494,7 @@ body {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            padding-top: 13px;
         }
 
         .analysis__money--violet {
@@ -480,6 +502,7 @@ body {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            padding-top: 13px;
         }
 
         div {

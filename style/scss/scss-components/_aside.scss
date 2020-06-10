@@ -2,11 +2,18 @@
     background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
     display: flex;
     flex-direction: column;
-    width: 296px;
+    width: 266px;
     position: relative;
 }
 
-.aside__traingle {
+.aside__menu {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.aside__traingle--users {
+    display: none;
     position: absolute;
     top: 43px;
     left: 45px;
@@ -15,19 +22,56 @@
     border-bottom: 7px solid transparent;
     border-left: 7px solid #FC745B;
     transform: rotate(90deg);
+
 }
 
-.aside__menu {
-    display: flex;
+.aside__container--useres:hover {
+    .aside__traingle--users {
+        display: block;
+    }
+}
+
+.aside__traingle--chat {
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 130px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+    transform: rotate(90deg);
+}
+
+.aside__container--chat:hover {
+    .aside__traingle--chat {
+        display: block;
+    }
+}
+.aside__traingle--like {
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: 220px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+    transform: rotate(90deg);
+}
+
+.aside__container--like:hover {
+    .aside__traingle--like {
+        display: block;
+    }
 }
 
 .aside__link {
-
+    width: 80px;
+    height: 47px;
     display: flex;
-    width: 100%;
     justify-content: center;
-    padding: 14px 22px 14px 36px;
-
+    
 }
 
 .aside__link:hover {
@@ -42,7 +86,19 @@
 
 .aside__link-img {
     width: 20px;
-    margin: 1px;
+    height: 16px;
+}
+
+.aside__link--users {
+    background: url(../../img/aside/users.png) center center no-repeat;
+}
+
+.aside__link--chat {
+    background: url(../../img/aside/chat.png) center center no-repeat;
+}
+
+.aside__link--like {
+    background: url(../../img/aside/like.png) center center no-repeat;
 }
 
 .aside__main {
@@ -86,6 +142,13 @@
                     color: #C8C8C8;
                 }
             }
+
+            a {
+                width: 20px;
+                height: 16px;
+                background: url(../../img/aside/chat-gray.png);
+            }
+            
         }
 
         .aside__person--valera {
@@ -124,7 +187,7 @@
         }
 
         .search__submit {
-            background: url(./../../img/header/header-zoom.png) center center no-repeat;
+            background: url(../../img/header/header-zoom.png) center center no-repeat;
             width: 20px;
             height: 20px;
             border: none;
@@ -133,7 +196,7 @@
         }
 
         .search__reset {
-            background: url(./../../img/aside/pen.png) center center no-repeat;
+            background: url(../../img/aside/pen.png) center center no-repeat;
             width: 20px;
             height: 20px;
             border: none;
@@ -156,30 +219,58 @@
         .aside__links {
             display: flex;
             flex-direction: column;
+            padding: 10px 0;
 
             .aside__links--top {
-                margin: 0 34px;
                 display: flex;
+
+                .aside__link--rdio {
+                    width: 55px;
+                    height: 55px;
+                    background: url(../../img/aside/Companys-full/rdio.png) center center no-repeat;
+
+                }
+                .aside__link--css-3 {
+                    width: 55px;
+                    height: 55px;
+                    background: url(../../img/aside/Companys-full/css-3.png) center center no-repeat;
+
+                }
+                .aside__link--deviantart {
+                    width: 55px;
+                    height: 55px;
+                    background: url(../../img/aside/Companys-full/deviantart.png) center center no-repeat;
+
+                }
 
                 .aside__link--top {
-
-                    img {
-                        width: 70px;
-                        padding: 8px;
-                    }
+                    margin: 5px;
+                    margin-bottom: 2px;
                 }
             }
-
+            
             .aside__links--bottom {
-                margin: 0 34px;
                 display: flex;
 
-                .aside__link--bottom {
+                .aside__link--xing {
+                    width: 55px;
+                    height: 55px;
+                    background: url(../../img/aside/Companys-full/xing.png) center center no-repeat;
+                }
+                .aside__link--vimeo {
+                    width: 55px;
+                    height: 55px;
+                    background: url(../../img/aside/Companys-full/vimeo.png) center center no-repeat;
+                }
+                .aside__link--vk {
+                    width: 55px;
+                    height: 55px;
+                    background: url(../../img/aside/Companys-full/vk.png) center center no-repeat;
+                }
 
-                    img {
-                        width: 70px;
-                        padding: 8px;
-                    }
+                .aside__link--bottom {
+                    margin: 5px;
+                    margin-top: 10px;
                 }
             }
         }

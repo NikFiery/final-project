@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style/css/main.css">
+    <link rel="stylesheet" href="./style/scss/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <title>Final</title>
 </head>
@@ -14,79 +14,79 @@
     <div class="wrapper">
         <!--====navigation====-->
         <div class="navigation">
-            <a href="#">
-                <div class="logo"></div>
-            </a>
+            <div class="logo">
+                <a class="logo__img" href="#"></a>
+            </div>
             <div class="navigation__container">
                 <nav class="navigation__menu">
-                    <a class="navigation__link navigation__link--home" href="#1">
-                        <span class="navigation__link-title">Home</span>
-                    </a>
 
-                    <a class="navigation__link navigation__link--stactics" href="#2">
-                        <span class="navigation__link-title">Stactics</span>
-                    </a>
+                    <div class="navigation__container--home">
+                        <a class="navigation__link navigation__link--home" href="#">Home</a>
+                        <div class="navigation__traingle--home"></div>
+                    </div>
 
-                    <a class="navigation__link navigation__link--users" href="#3">
-                        <span class="navigation__link-title">Users</span>
-                    </a>
+                    <div class="navigation__container--stactics">
+                        <a class="navigation__link navigation__link--stactics" href="#">Stactics</a>
+                        <div class="navigation__traingle--stactics"></div>
+                    </div>
 
-                    <a class="navigation__link navigation__link--settings" href="#4">
-                        <span class="navigation__link-title">Settings</span>
-                    </a>
+                    <div class="navigation__container--users">
+                        <a class="navigation__link navigation__link--users" href="#">Users</a>
+                        <div class="navigation__traingle--users"></div>
+                    </div>
 
-                    <a class="navigation__link navigation__link--quires" href="#5">
-                        <span class="navigation__link-title">Quires</span>
-                    </a>
+                    <div class="navigation__container--settings">
+                        <a class="navigation__link navigation__link--settings" href="#">Settings</a>
+                        <div class="navigation__traingle--settings"></div>
+                    </div>
+
+                    <div class="navigation__container--quires">
+                        <a class="navigation__link navigation__link--quires" href="#">Quires</a>
+                        <div class="navigation__traingle--quires"></div>
+                    </div>
 
                 </nav>
                 <div class="navigation___exit">
                     <button class="navigation__exit--btn"></button>
                 </div>
-                <div class="navigation__traingle"></div>
             </div>
         </div>
         <!--====header====-->
         <div class="container">
             <header class="header">
                 <div class="header__top">
-                    <a href="#">
-                        <div class="header__mobile">
-                            <div class="header__mobile--burger"></div>
-                            <div class="header__mobile--burger"></div>
-                            <div class="header__mobile--burger"></div>
-                        </div>
-                    </a>
 
-                    <button class="top__section top__section--rounded"></button>
-                    <button class="top__section top__section--folder"></button>
-                    <button class="top__section top__section--settings"></button>
-
-                    <div class="top__section-search">
-                        <input type="text" placeholder="Search Anything Here...." required>
-                        <a href="#">
-                            <div class="top__section--zoom"></div>
-                        </a>
+                    <div class="header__burger">
+                        <div class="header__burger--strip"></div>
+                        <div class="header__burger--strip"></div>
+                        <div class="header__burger--strip"></div>
                     </div>
 
-                    <button class="top__section top__section--upload"></button>
-                    <button class="top__section top__section--envelope"></button>
-                    <button class="top__section top__section--planet"></button>
+                    <div class="header__left-container">
+                        <button class="top__section top__section--left top__section--rounded"></button>
+                        <button class="top__section top__section--left top__section--folder"></button>
+                        <button class="top__section top__section--left top__section--settings"></button>
+                    </div>
+
+                    <form class="top__section-search">
+                        <input type="text" placeholder="Search Anything Here...." required>
+                        <input class="top__section--zoom" type="submit" value="">
+                    </form>
+
+                    <div class="header__right-container">
+                        <button class="top__section top__section--right top__section--upload"></button>
+                        <button class="top__section top__section--right top__section--envelope"></button>
+                        <button class="top__section top__section--right top__section--planet"></button>
+                    </div>
 
                     <div class="profile__mobile">
-                        <a href="#">
-                            <div class="profile__mobile--find"></div>
-                        </a>
-                        <a href="#">
-                            <div class="profile__mobile--avatar"></div>
-                        </a>
-
+                        <a href="#" class="profile__mobile--find"></a>
+                        <a href="#" class="profile__mobile--avatar"></a>
                     </div>
-                    <!--<a href="#"><div class="profile__mobile--avatar"></div></a>
-                        <a href="#"><div class="profile__mobile--find"></div></a>-->>
+
                     <div class="top__section--profile">
                         <div class="top__section--avatar">
-                            <img src="./img/header/header-avatar.png" alt="ava">
+                            <img src="./img/header/header-avatar.png" alt="profile-avatar">
                         </div>
                         <div class="top__section--data">
                             <h3 class="top__section--name">Kendall Jenner</h3>
@@ -169,7 +169,7 @@
                                     <button class="monthly__btn">Month</button>
                                     <button class="monthly__btn">Day</button>
                                     <button class="monthly__btn">Year</button>
-                                    <a href="#"><img src="./img/header/header-ellipse.png" alt="КРУГ3ШТУКИТУТСИДЯТ"></a>
+                                    <a class="monthly__points" href="#"></a>
                                 </div>
                             </div>
                             <div class="mouthly__graph">
@@ -201,7 +201,7 @@
                         </div>
                         <div class="top__hour">
                             <h3>Revenue Per Hour</h3>
-                            <img class="img" src="./img/main/Hour.jpg" alt="fff">
+                            <div class="top__hour--img"></div>
                             <div class="hour__levels">
                                 <span class="level">1020</span>
                                 <span class="level-two">1020</span>
@@ -217,7 +217,7 @@
                                     <div class="reviews__msturner">
                                         <div class="msturner__title common__title">
                                             <div class="msturner__title--profile common__title--profile">
-                                                <img src="./img/main/miss-turner.png" alt="miss">
+                                                <img src="./img/main/miss-turner.png" alt="miss-turner">
                                                 <span>10 Min Ago</span>
                                             </div>
                                             <div class="msturner__title--comment common__comment">
@@ -255,7 +255,7 @@
                                     <div class="reviews__mrquill">
                                         <div class="mrquill__title common__title">
                                             <div class="mrquill__title--profile common__title--profile">
-                                                <img src="./img/main/quill.png" alt="miss">
+                                                <img src="./img/main/quill.png" alt="mr-quill">
                                                 <span>10 Min Ago</span>
                                             </div>
                                             <div class="mrquill__title--comment common__comment">
@@ -278,25 +278,25 @@
                                 <h3>Todays Task</h3>
                                 <ul class="task__container">
                                     <li class="task__line">
-                                        <button class="task__btn"></button>
+                                        <input class="task__btn" type="checkbox">
                                         <h3>Arrange</h3>
                                         <span>simply dummy text of the printing and......</span>
                                         <span class="task__time">12:24 AM</span>
                                     </li>
                                     <li class="task__line">
-                                        <button class="task__btn"></button>
+                                        <input class="task__btn" type="checkbox">
                                         <h3>Shipment</h3>
                                         <span>simply dummy text of the printing and......</span>
                                         <span class="task__time">1:10 AM</span>
                                     </li>
                                     <li class="task__line">
-                                        <button class="task__btn"></button>
+                                        <input class="task__btn" type="checkbox">
                                         <h3>Make List</h3>
                                         <span>simply dummy text of the printing......</span>
                                         <span class="task__time">1:24 AM</span>
                                     </li>
                                     <li class="task__line">
-                                        <button class="task__btn"></button>
+                                        <input class="task__btn" type="checkbox">
                                         <h3>Review</h3>
                                         <span>simply dummy text of the printing and......</span>
                                         <span class="task__time">1:30 AM</span>
@@ -308,7 +308,7 @@
                             <div class="analysis">
                                 <div class="analysis__card">
                                     <h3>Progress</h3>
-                                    <img src="./img/main/progress.png" alt="fff">
+                                    <div class="analysis__img analysis__img--progress"></div>
                                     <span class="analysis__money analysis__money--violet">$150,0000</span>
                                     <div class="analysis__levels">
                                         <span class="level">1020</span>
@@ -317,7 +317,7 @@
                                 </div>
                                 <div class="analysis__card analysis__card--second">
                                     <h3>Shipments</h3>
-                                    <img src="./img/main/shipments.png" alt="fff">
+                                    <div class="analysis__img analysis__img--shipments"></div>
                                     <span class="analysis__money">$15,000</span>
                                     <div class="analysis__levels">
                                         <span class="level">1020</span>
@@ -334,15 +334,22 @@
                     <div class="aside__header">
                         <div class="aside__container">
                             <div class="aside__menu">
-                                <a class="aside__link" href="#">
-                                    <img class="aside__link-img" src="./img/aside/users.png" alt="">
-                                </a>
-                                <a class="aside__link" href="#">
-                                    <img class="aside__link-img" src="./img/aside/chat.png" alt="">
-                                </a>
-                                <a class="aside__link" href="#">
-                                    <img class="aside__link-img" src="./img/aside/like.png" alt="">
-                                </a>
+
+                                <div class="aside__container--useres">
+                                    <a class="aside__link aside__link--img aside__link--users" href="#"></a>
+                                    <div class="aside__traingle--users"></div>
+                                </div>
+
+                                <div class="aside__container--chat">
+                                    <a class="aside__link aside__link--img aside__link--chat" href="#"></a>
+                                    <div class="aside__traingle--chat"></div>
+                                </div>
+
+                                <div class="aside__container--like">
+                                    <a class="aside__link aside__link--img aside__link--like" href="#"></a>
+                                    <div class="aside__traingle--like"></div>
+                                </div>
+                                
                             </div>
                             <div class="aside__traingle"></div>
                         </div>
@@ -351,57 +358,57 @@
                         <div class="aside__friends">
 
                             <div class="aside__person">
-                                <img src="./img/aside/People/Jennifer.png" alt="">
+                                <img src="./img/aside/People/Jennifer.png" alt="Jennifer">
                                 <div class="information">
                                     <h3>Jennifer Lawrence</h3>
                                     <span>Cheif Authority</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__line"></div>
                             <div class="aside__person">
-                                <img src="./img/aside/People/Brad.png" alt="">
+                                <img src="./img/aside/People/Brad.png" alt="Brad">
                                 <div class="information">
                                     <h3>Brad Pitt</h3>
                                     <span>Cheif Authority</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__line"></div>
                             <div class="aside__person">
-                                <img src="./img/aside/People/Leonardo.png" alt="">
+                                <img src="./img/aside/People/Leonardo.png" alt="Leonardo">
                                 <div class="information">
                                     <h3>Leonardo Dicaprio</h3>
                                     <span>Cheif Authority</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__line"></div>
                             <div class="aside__person">
-                                <img src="./img/aside/People/Jesse.png" alt="">
+                                <img src="./img/aside/People/Jesse.png" alt="Jesse">
                                 <div class="information">
                                     <h3>Jesse Eisenberg</h3>
                                     <span>Cheif Authority</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__line"></div>
                             <div class="aside__person">
-                                <img src="img/aside/People/kristen.png" alt="">
+                                <img src="img/aside/People/kristen.png" alt="kristen">
                                 <div class="information">
                                     <h3>Kristen Stewart</h3>
                                     <span>Cheif Authority</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__line"></div>
                             <div class="aside__person">
-                                <img src="./img/aside/People/Ben.png" alt="">
+                                <img src="./img/aside/People/Ben.png" alt="Ben">
                                 <div class="information">
                                     <h3>Ben Affleck</h3>
                                     <span>Cheif Authority</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__person">
                                 <img class="aside__person--valera" src="./img/aside/People/Valery.jpg" alt="valera">
@@ -409,7 +416,7 @@
                                     <h3>Valery Albertovich</h3>
                                     <span>Developer</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__person">
                                 <img class="aside__person--valera" src="./img/aside/People/Valery.jpg" alt="valera">
@@ -417,7 +424,7 @@
                                     <h3>Valery Albertovich</h3>
                                     <span>Developer</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                             <div class="aside__person">
                                 <img class="aside__person--valera" src="./img/aside/People/Valery.jpg" alt="valera">
@@ -425,7 +432,7 @@
                                     <h3>Valery Albertovich</h3>
                                     <span>Developer</span>
                                 </div>
-                                <a href="#"><img src="./img/aside/chat-gray.png" alt=""></a>
+                                <a class="aside__person--chat" href="#"></a>
                             </div>
                         </div>
                         <form class="aside__form">
@@ -437,21 +444,14 @@
                             <h3>Featured Companys</h3>
                             <div class="aside__links">
                                 <div class="aside__links--top">
-                                    <!--закончу позже с img-->
-                                    <a href="#" class="aside__link--top"><img src="./img/aside/Companys-full/link-1.png"
-                                            alt="link"></a>
-                                    <a href="#" class="aside__link--top"><img src="./img/aside/Companys-full/link-2.png"
-                                            alt="link"></a>
-                                    <a href="#" class="aside__link--top"><img src="./img/aside/Companys-full/link-3.png"
-                                            alt="link"></a>
+                                    <a href="#" class="aside__link--top aside__link--rdio"></a>
+                                    <a href="#" class="aside__link--top aside__link--css-3"></a>
+                                    <a href="#" class="aside__link--top aside__link--deviantart"></a>
                                 </div>
                                 <div class="aside__links--bottom">
-                                    <a href="#" class="aside__link--bottom"><img
-                                            src="./img/aside/Companys-full/link-4.png" alt="link"></a>
-                                    <a href="#" class="aside__link--bottom"><img
-                                            src="./img/aside/Companys-full/link-5.png" alt="link"></a>
-                                    <a href="#" class="aside__link--bottom"><img
-                                            src="./img/aside/Companys-full/link-6.png" alt="link"></a>
+                                    <a href="#" class="aside__link--bottom aside__link--xing"></a>
+                                    <a href="#" class="aside__link--bottom aside__link--vimeo"></a>
+                                    <a href="#" class="aside__link--bottom aside__link--vk"></a>
                                 </div>
                             </div>
                         </div>

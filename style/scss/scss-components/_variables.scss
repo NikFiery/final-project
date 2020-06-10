@@ -44,15 +44,3 @@ button {
     border: none;
     outline: none;
 }
-
-button:hover {
-    transition: 0.15s;
-    box-shadow: inset 0px 0px 10px 0px #b9b9b9;
-    border-radius: 10%;
-    transform: rotateX(365deg);
-}
-
-button:active {
-    box-shadow: inset 0px 0px 10px 0px #444444;
-    transform: rotateZ(50deg);
-}

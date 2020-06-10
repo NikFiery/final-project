@@ -3,16 +3,14 @@
     flex-direction: column;
     width: 70px;
     min-height: 100vh;
-
-
 }
 
-.logo {
+.logo__img {
+    display: block;
     width: 70px;
     height: 70px;
-    box-shadow: -10px 0 30px 0 #000000;
-    background: url(./../../img/logo.png) center center no-repeat;
-
+    box-shadow: 9px -2px 22px -9px #000000;
+    background: url(../../img/logo.png) center center no-repeat;
 }
 
 .navigation__container {
@@ -37,73 +35,133 @@
     width: 70px;
     height: 70px;
     text-decoration: none;
+    @include ntext;
+    align-items: center;
 
-}
-
-.navigation__link--home {
-    background: url(./../../img/nav/nav-home.png) center center no-repeat;
-
-    &:hover {
-        transform: rotate(-340deg);
-        border-radius: 50%;
-        transition: 0.2s;
-    }
-}
-
-.navigation__link--stactics {
-    background: url(./../../img/nav/nav-bar-chart.png) center center no-repeat;
-
-    &:hover {
-        transform: rotate(345deg);
-        border-radius: 50%;
-        transition: 0.2s;
-    }
-}
-
-.navigation__link--users {
-    background: url(./../../img/nav/nav-user.png) center center no-repeat;
-
-    &:hover {
-        transform: rotate(-340deg);
-        border-radius: 50%;
-        transition: 0.2s;
-    }
-}
-
-.navigation__link--settings {
-    background: url(./../../img/nav/nav-settings.png) center center no-repeat;
-
-    &:hover {
-        transform: rotate(345deg);
-        border-radius: 50%;
-        transition: 0.2s;
-    }
-}
-
-.navigation__link--quires {
-    background: url(./../../img/nav/nav-information.png) center center no-repeat;
-
-    &:hover {
-        transform: rotate(-340deg);
-        border-radius: 50%;
-        transition: 0.2s;
-
-    }
 }
 
 .navigation__link:hover {
-    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #ffffff;
+    box-shadow: inset 2px 2px 5px #a8a8a8, 1px 1px 5px #ffffff;
     border-radius: 15%;
 }
 
 .navigation__link:active {
-    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px #000000;
-    border-radius: 15%;
+    box-shadow: inset 2px 2px 5px #a8a8a8, 1px 1px 5px #000000;
+    border-radius: 20%;
 }
 
-.navigation__link-title {
-    @include ntext;
-    align-items: center;
+.navigation__link--home {
+    background: url(../../img/nav/nav-home.png) center center no-repeat;
+
+}
+
+.navigation__menu {
+    position: relative;
+}
+
+.navigation__traingle--home {
+    display: none;
+    position: absolute;
+    top: 33px;
+    left: 70px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+}
+
+.navigation__container--home:hover {
+    .navigation__traingle--home {
+        display: block;
+    }
+}
+
+.navigation__traingle--stactics {
+    display: none;
+    position: absolute;
+    top: 99px;
+    left: 70px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+}
+
+.navigation__container--stactics:hover {
+    .navigation__traingle--stactics {
+        display: block;
+    }
+}
+
+.navigation__traingle--users {
+    display: none;
+    position: absolute;
+    top: 171px;
+    left: 70px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+}
+
+.navigation__container--users:hover {
+    .navigation__traingle--users {
+        display: block;
+    }
+}
+
+.navigation__traingle--settings {
+    display: none;
+    position: absolute;
+    top: 241px;
+    left: 70px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+}
+
+.navigation__container--settings:hover {
+    .navigation__traingle--settings {
+        display: block;
+    }
+}
+
+.navigation__traingle--quires {
+    display: none;
+    position: absolute;
+    top: 311px;
+    left: 70px;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #FC745B;
+}
+
+.navigation__container--quires:hover {
+    .navigation__traingle--quires {
+        display: block;
+    }
+}
+
+.navigation__link--stactics {
+    background: url(../../img/nav/nav-bar-chart.png) center center no-repeat;
+
+}
+
+.navigation__link--users {
+    background: url(../../img/nav/nav-user.png) center center no-repeat;
+
+}
+
+.navigation__link--settings {
+    background: url(../../img/nav/nav-settings.png) center center no-repeat;
+
+}
+
+.navigation__link--quires {
+    background: url(../../img/nav/nav-information.png) center center no-repeat;
+
 }
 
 .navigation___exit {
@@ -121,52 +179,23 @@
     height: 20px;
     cursor: pointer;
     outline: none;
-    background: url(./../../img/nav/nav-power-button.png) center center no-repeat;
+    background: url(../../img/nav/nav-power-button.png) center center no-repeat;
 
 }
 
 .navigation__exit--btn:hover {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     transform: rotate(365deg);
-    background: url(./../../img/nav/nav-power-button.png) center center no-repeat;
-    position: absolute;
+    background: url(../../img/nav/nav-power-button.png) center center no-repeat;
 }
 
 .navigation__exit--btn:active {
-    width: 25px;
-    height: 25px;
-    background: url(./../../img/nav/ок-png-5.png) center center no-repeat;
+    width: 20px;
+    height: 20px;
+    background: url(../../img/nav/ок-png-5.png) center center no-repeat;
     background-size: cover;
     transform: rotate(-365deg);
-    border-radius: 50%;
-    transition: 0.2s;
-}
-
-
-.navigation__traingle {
-    position: absolute;
-    top: 45px;
-    left: 70px;
-    content: '';
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    border-left: 7px solid #FC745B;
-}
-
-.navigation__btn:hover {
-    width: 25px;
-    height: 25px;
-    background: url(./../img/nav/nav-power-button.png) center center no-repeat;
-    background-size: cover;
-    transition: 0.3s;
-}
-
-.navigation__btn:active {
-    width: 25px;
-    height: 25px;
-    background: url(./../../img/nav/ок-png-5.png) center center no-repeat;
-    background-size: cover;
     border-radius: 50%;
     transition: 0.1s;
 }

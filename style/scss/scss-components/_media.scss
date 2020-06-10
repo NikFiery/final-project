@@ -1,4 +1,5 @@
 @media (max-width: 1180px) {
+    
     .main__bottom {
         flex-direction: column;
     }
@@ -49,6 +50,9 @@
         border-radius: 10%;
     }
 
+    .monthly__btns {
+        margin-left: 0px;
+    }
     .container__reviews {
         padding: 30px;
 
@@ -151,26 +155,44 @@
         padding: 0 20px;
     }
 
-    .aside__link--top img {
-        transform: rotate(2994deg);
-        transition: transform 30s 5s;
+        .aside__link--top {
+            transform: rotate(-2859deg);
+            transition: transform 30s 5s;
+        }
+    
+    
+    
+        .aside__link--bottom {
+            transform: rotate(-2903deg);
+            transition: transform 30s 5s;
+            margin-top: 2px;
+        }
+    
+        .aside__links {
+            flex-direction: column;
+        }
     }
-
-
-
-    .aside__link--bottom img {
-        transform: rotate(-2994deg);
-        transition: transform 30s 5s;
-    }
-
-    .aside__links {
-        padding-right: 23px;
-    }
-}
 
 @media (max-width: 768px) {
     .navigation {
         display: none;
+    }
+
+    .header__top {
+        justify-content: center;
+    }
+    .top__section-search {
+        display: none;
+    }
+
+    .header__left-container  {
+        margin: 0;
+        
+    }
+
+    .header__right-container  {
+        margin: 0;
+        
     }
 
     .top__section--profile {
@@ -178,12 +200,12 @@
     }
 
 
-    .header__mobile {
+    .header__burger {
         display: flex;
         flex-direction: column;
         position: relative;
 
-        .header__mobile--burger {
+        .header__burger--strip {
             display: flex;
             width: 30px;
             height: 7px;
@@ -199,12 +221,11 @@
     }
 
     .profile__mobile {
-        margin-right: 5px;
         display: flex;
 
         .profile__mobile--avatar {
 
-            background: url(./../../img/header/header-avatar.png) center center no-repeat;
+            background: url(../../img/header/header-avatar.png) center center no-repeat;
             background-size: cover;
             width: 20px;
             height: 20px;
@@ -212,7 +233,7 @@
         }
 
         .profile__mobile--find {
-            background: url(./../../img/header/header-zoom.png) center center no-repeat;
+            background: url(../../img/header/header-zoom.png) center center no-repeat;
             background-size: cover;
             width: 17px;
             height: 17px;
@@ -233,7 +254,8 @@
 
     .monthly__menu {
         align-items: center;
-        width: 64%;
+        width: 100%;
+        justify-content: space-evenly;
 
         h3 {
             font-size: calc(16px + 0.1vw);
@@ -430,6 +452,15 @@
 }
 
 @media (max-width: 439px) {
+
+    .container {
+       overflow: hidden;
+    }
+
+    .top__section {
+        width: 40px;
+
+    }
 
     .top__section-search {
         display: none;

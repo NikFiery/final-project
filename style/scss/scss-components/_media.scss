@@ -1,5 +1,5 @@
 @media (max-width: 1180px) {
-    
+
     .main__bottom {
         flex-direction: column;
     }
@@ -53,6 +53,7 @@
     .monthly__btns {
         margin-left: 0px;
     }
+
     .container__reviews {
         padding: 30px;
 
@@ -155,23 +156,37 @@
         padding: 0 20px;
     }
 
-        .aside__link--top {
-            transform: rotate(-2859deg);
-            transition: transform 30s 5s;
-        }
-    
-    
-    
-        .aside__link--bottom {
-            transform: rotate(-2903deg);
-            transition: transform 30s 5s;
-            margin-top: 2px;
-        }
-    
-        .aside__links {
-            flex-direction: column;
-        }
+    .aside__link--top {
+        transform: rotate(-2859deg);
+        transition: transform 30s 5s;
     }
+
+
+
+    .aside__link--bottom {
+        transform: rotate(-2903deg);
+        transition: transform 30s 5s;
+        margin-top: 2px;
+    }
+
+    .aside__links {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .graph__img {
+        width: 100%;
+    }
+
+    .monthly__btns {
+        margin-left: 144px;
+    }
+
+}
+
 
 @media (max-width: 768px) {
     .navigation {
@@ -181,18 +196,27 @@
     .header__top {
         justify-content: center;
     }
+
     .top__section-search {
         display: none;
     }
 
-    .header__left-container  {
+    .header__left-container {
         margin: 0;
-        
+
     }
 
-    .header__right-container  {
+    .header__right-container {
         margin: 0;
-        
+
+    }
+
+    .top__section--left {
+        width: 13vw;
+    }
+
+    .top__section--right {
+        width: 13vw;
     }
 
     .top__section--profile {
@@ -207,7 +231,7 @@
 
         .header__burger--strip {
             display: flex;
-            width: 30px;
+            width: 27px;
             height: 7px;
             margin: 2px;
             background: #000000;
@@ -247,7 +271,7 @@
     }
 
     .top__monthly {
-        width: 472px;
+        max-width: 440px;
         justify-content: center;
         border-radius: 10%;
     }
@@ -263,7 +287,7 @@
     }
 
     .monthly__btn {
-        margin-right: 6px;
+        margin-right: calc(5px + 0.1vw);
     }
 
     .graph__img {
@@ -454,7 +478,7 @@
 @media (max-width: 439px) {
 
     .container {
-       overflow: hidden;
+        overflow: hidden;
     }
 
     .top__section {

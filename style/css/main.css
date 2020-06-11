@@ -1067,6 +1067,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .monthly__menu h3 {
@@ -1082,7 +1087,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 307px;
 }
 
 .monthly__menu .monthly__btns .monthly__btn {
@@ -1842,6 +1846,15 @@ body {
   }
 }
 
+@media (max-width: 992px) {
+  .graph__img {
+    width: 100%;
+  }
+  .monthly__btns {
+    margin-left: 144px;
+  }
+}
+
 @media (max-width: 768px) {
   .navigation {
     display: none;
@@ -1860,6 +1873,12 @@ body {
   .header__right-container {
     margin: 0;
   }
+  .top__section--left {
+    width: 13vw;
+  }
+  .top__section--right {
+    width: 13vw;
+  }
   .top__section--profile {
     display: none;
   }
@@ -1877,7 +1896,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 30px;
+    width: 27px;
     height: 7px;
     margin: 2px;
     background: #000000;
@@ -1907,7 +1926,7 @@ body {
     margin: 0 auto;
   }
   .top__monthly {
-    width: 472px;
+    max-width: 440px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1926,7 +1945,7 @@ body {
     font-size: calc(16px + 0.1vw);
   }
   .monthly__btn {
-    margin-right: 6px;
+    margin-right: calc(5px + 0.1vw);
   }
   .graph__img {
     background: url(../../img/main/line.png) center center no-repeat;

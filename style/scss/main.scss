@@ -102,6 +102,9 @@ body {
 
 .monthly__menu {
     display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
 
 
     h3 {
@@ -112,7 +115,6 @@ body {
 
     .monthly__btns {
         display: flex;
-        margin-left: 307px;
 
         .monthly__btn {
             @include ftext;
@@ -156,7 +158,7 @@ body {
         padding-bottom: 14px;
     }
 
-    .top__hour--img{
+    .top__hour--img {
         width: 156px;
         height: 161px;
         background: url(../../img/main/Hour.jpg) center center no-repeat;
@@ -366,7 +368,7 @@ body {
 
     h3 {
         @include mtext;
-        
+
     }
 
     ul {
@@ -460,7 +462,7 @@ body {
         background: #ffffff;
 
 
-        .analysis__img--progress{
+        .analysis__img--progress {
             width: 160px;
             height: 126px;
             padding: 20px 0;
@@ -468,7 +470,7 @@ body {
             background-size: cover;
         }
 
-        .analysis__img--shipments{
+        .analysis__img--shipments {
             width: 207px;
             height: 126px;
             padding: 20px 0;

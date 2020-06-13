@@ -81,7 +81,7 @@ button {
   height: 70px;
   text-decoration: none;
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -355,7 +355,7 @@ button {
 
 .top__section-search input::-webkit-input-placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -365,7 +365,7 @@ button {
 
 .top__section-search input:-ms-input-placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -375,7 +375,7 @@ button {
 
 .top__section-search input::-ms-input-placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -385,7 +385,7 @@ button {
 
 .top__section-search input::placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -442,7 +442,7 @@ button {
 
 .top__section--data h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -455,7 +455,7 @@ button {
 
 .top__section--data span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -494,7 +494,7 @@ button {
 
 .header__bottom .daily .daily__title {
   font-family: 'Lato', sans-serif;
-  /*t - title*/
+  /*titletext - headers and titles*/
   font-weight: bold;
   color: #777777;
   font-size: calc(10px + 0.137vw);
@@ -502,7 +502,7 @@ button {
 
 .header__bottom .daily .daily__money {
   font-family: 'Lato', sans-serif;
-  /*t - title*/
+  /*titletext - headers and titles*/
   font-weight: bold;
   color: #777777;
   font-size: calc(10px + 0.137vw);
@@ -522,7 +522,7 @@ button {
 .header__bottom .daily .daily__levels .daily__level {
   position: relative;
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -542,7 +542,7 @@ button {
 
 .header__bottom .daily .daily__levels .daily__level-two {
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -740,7 +740,7 @@ button {
 
 .aside__main .aside__friends .aside__person .information h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -748,7 +748,7 @@ button {
 
 .aside__main .aside__friends .aside__person .information span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -790,7 +790,7 @@ button {
 
 .aside__main .aside__form .search__text::-webkit-input-placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -801,7 +801,7 @@ button {
 
 .aside__main .aside__form .search__text:-ms-input-placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -812,7 +812,7 @@ button {
 
 .aside__main .aside__form .search__text::-ms-input-placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -823,7 +823,7 @@ button {
 
 .aside__main .aside__form .search__text::placeholder {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -868,7 +868,7 @@ button {
 
 .aside__main .aside__company h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -1029,7 +1029,7 @@ button {
 
 .graph__thousands li {
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -1055,7 +1055,7 @@ button {
 
 .graph__months li {
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -1075,7 +1075,7 @@ button {
 
 .monthly__menu h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -1090,7 +1090,7 @@ button {
 
 .monthly__menu .monthly__btns .monthly__btn {
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -1137,7 +1137,7 @@ button {
 
 .top__hour h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -1158,7 +1158,7 @@ button {
 .top__hour .hour__levels .level {
   position: relative;
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -1178,7 +1178,7 @@ button {
 
 .top__hour .hour__levels .level-two {
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -1218,7 +1218,7 @@ button {
 
 .container__reviews h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -1268,7 +1268,7 @@ button {
 
 .reviews__msturner .msturner__title .msturner__title--profile span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -1284,7 +1284,7 @@ button {
 
 .reviews__msturner .msturner__title .msturner__title--comment span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -1324,7 +1324,7 @@ button {
 
 .reviews__msturner .msturner__additionally .additionally__comments .additionally__comment--top span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -1340,7 +1340,7 @@ button {
 
 .reviews__msturner .msturner__additionally .additionally__comments .additionally__comment--bottom span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -1371,7 +1371,7 @@ button {
 
 .mrquill__title .mrquill__title--profile span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -1387,7 +1387,7 @@ button {
 
 .mrquill__title .mrquill__title--comment span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -1433,7 +1433,7 @@ button {
 
 .task h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -1492,7 +1492,7 @@ button {
 
 .task ul li h3 {
   font-family: 'Lato', sans-serif;
-  /*b - big-text*/
+  /*b - big text*/
   font-weight: 900;
   color: #777777;
   font-size: calc(10px + 0.137vw);
@@ -1504,7 +1504,7 @@ button {
 
 .task ul li span {
   font-family: 'Lato', sans-serif;
-  /*n - navigation*/
+  /*navtext - highlight navigation*/
   font-weight: 400;
   color: #ffffff;
   font-size: calc(10px + 0.137vw);
@@ -1515,7 +1515,7 @@ button {
 
 .task ul li .task__time {
   font-family: 'Lato', sans-serif;
-  /*t - title*/
+  /*titletext - headers and titles*/
   font-weight: bold;
   color: #777777;
   font-size: calc(10px + 0.137vw);
@@ -1574,7 +1574,7 @@ button {
 
 .analysis .analysis__card h3 {
   font-family: 'Lato', sans-serif;
-  /*m - main*/
+  /*mainavtext - classic style for main content*/
   font-weight: bold;
   color: #777777;
   font-size: calc(16px + 0.1vw);
@@ -1588,7 +1588,7 @@ button {
 
 .analysis .analysis__card .analysis__money {
   font-family: 'Lato', sans-serif;
-  /*t - title*/
+  /*titletext - headers and titles*/
   font-weight: bold;
   color: #777777;
   font-size: calc(10px + 0.137vw);
@@ -1611,7 +1611,7 @@ button {
 .analysis .analysis__card div .level {
   position: relative;
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);
@@ -1631,7 +1631,7 @@ button {
 
 .analysis .analysis__card div .level-two {
   font-family: 'Lato', sans-serif;
-  /*n - functional*/
+  /*arrowstext - used for decorative arrows*/
   font-weight: bold;
   color: #BFBFBF;
   font-size: calc(10px + 0.137vw);

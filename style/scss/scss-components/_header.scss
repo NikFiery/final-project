@@ -85,7 +85,7 @@
         background: #F8F8F8;
 
         &::placeholder {
-            @include ntext;
+            @include navtext;
             font-size: 11px;
             color: #C8C8C8;
 
@@ -127,7 +127,7 @@
     justify-content: center;
 
     h3 {
-        @include mtext;
+        @include mainavtext;
         font-size: 13px;
         background: linear-gradient(77deg, #fd5272 0%, #ea6d54 100%);
         -webkit-background-clip: text;
@@ -137,7 +137,7 @@
     }
 
     span {
-        @include ntext;
+        @include navtext;
         color: #BFBFBF;
 
     }
@@ -165,11 +165,11 @@
         margin-bottom: 22px;
 
         .daily__title {
-            @include ttext;
+            @include titletext;
         }
 
         .daily__money {
-            @include ttext;
+            @include titletext;
             font-size: 20px;
             background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
             -webkit-background-clip: text;
@@ -184,7 +184,7 @@
 
             .daily__level {
                 position: relative;
-                @include ftext;
+                @include arrowstext;
             }
 
             .daily__level::before {
@@ -201,7 +201,7 @@
             }
 
             .daily__level-two {
-                @include ftext;
+                @include arrowstext;
                 position: relative;
                 margin-left: 10px;
             }

@@ -1,39 +1,39 @@
-@mixin ntext {
+@mixin navtext {
 
     font-family: 'Lato', sans-serif;
-    /*n - navigation*/
+    /*navtext - highlight navigation*/
     font-weight: 400;
     color: #ffffff;
     font-size: calc(10px + 0.137vw);
 }
 
-@mixin ttext {
+@mixin titletext {
     font-family: 'Lato', sans-serif;
-    /*t - title*/
+    /*titletext - headers and titles*/
     font-weight: bold;
     color: #777777;
     font-size: calc(10px + 0.137vw);
 }
 
-@mixin mtext {
+@mixin mainavtext {
     font-family: 'Lato', sans-serif;
-    /*m - main*/
+    /*mainavtext - classic style for main content*/
     font-weight: bold;
     color: #777777;
     font-size: calc(16px + 0.1vw);
 }
 
-@mixin ftext {
+@mixin arrowstext {
     font-family: 'Lato', sans-serif;
-    /*n - functional*/
+    /*arrowstext - used for decorative arrows*/
     font-weight: bold;
     color: #BFBFBF;
     font-size: calc(10px + 0.137vw);
 }
 
-@mixin btext {
+@mixin bigtext {
     font-family: 'Lato', sans-serif;
-    /*b - big-text*/
+    /*b - big text*/
     font-weight: 900;
     color: #777777;
     font-size: calc(10px + 0.137vw);

@@ -134,11 +134,11 @@
                 width: 175px;
 
                 h3 {
-                    @include mtext
+                    @include mainavtext
                 }
 
                 span {
-                    @include ntext;
+                    @include navtext;
                     color: #C8C8C8;
                 }
             }
@@ -179,7 +179,7 @@
         }
 
         .search__text::placeholder {
-            @include ntext;
+            @include navtext;
             font-weight: 300;
             font-size: 10px;
             color: #C0C0C0;
@@ -212,7 +212,7 @@
         justify-content: center;
 
         h3 {
-            @include mtext;
+            @include mainavtext;
             margin: 27px 0;
         }
 

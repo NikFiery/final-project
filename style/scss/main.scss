@@ -8,16 +8,12 @@
     display: flex;
     max-width: 1366px;
     margin: 0 auto;
-
-
 }
 
 .container {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-
 }
 
 .container__inner {
@@ -26,22 +22,20 @@
     justify-content: space-between;
 }
 
-/*===main===*/
+                        /*===thes main content===*/
 .main {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
     background: #ECECEC;
-
 }
 
-/*===top===*/
+                        /*===top of the main===*/
 .main__top {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-
 }
 
 .top__monthly {
@@ -53,7 +47,6 @@
     background: #ffffff;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .mouthly__graph--top {
@@ -76,7 +69,6 @@
     height: 62px;
     margin-left: 20px;
     margin-bottom: 20px;
-
 }
 
 .graph__months {
@@ -94,7 +86,6 @@
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
-
 
     h3 {
         @include mainavtext;
@@ -197,7 +188,7 @@
     }
 }
 
-/*===bottom===*/
+                        /*===bottomt of the main===*/
 .main__bottom {
     display: flex;
 
@@ -343,7 +334,7 @@
 
 }
 
-/*===task===*/
+                    /*===task  of the main===*/
 .task {
     display: flex;
     flex-direction: column;
@@ -357,7 +348,6 @@
 
     h3 {
         @include mainavtext;
-
     }
 
     ul {
@@ -371,7 +361,6 @@
             background: #FCFCFC;
             border-top: 1px solid #EDEDED;
             border-bottom: 1px solid #EDEDED;
-
         }
 
         li:nth-child(1) {
@@ -382,8 +371,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-
-
 
             .task__btn {
                 width: 17px;
@@ -432,14 +419,12 @@
     }
 }
 
-/*===analysis===*/
+            /*====== analysis of the main ======*/
 .analysis {
     width: 100%;
     display: flex;
     padding-left: 10px;
     padding-top: 10px;
-
-
 
     .analysis__card {
         width: 225px;
@@ -449,7 +434,6 @@
         justify-content: center;
         align-items: center;
         background: #ffffff;
-
 
         .analysis__img--progress {
             width: 160px;
@@ -513,7 +497,6 @@
                 border-right: transparent 2px solid;
                 border-bottom: 5px solid #A889E9;
                 border-left: transparent 2px solid;
-
             }
 
             .level-two {
@@ -533,7 +516,6 @@
                 border-top: 5px solid #FD5670;
                 border-right: 2px solid transparent;
                 border-left: 2px solid transparent;
-
             }
         }
     }

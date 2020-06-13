@@ -37,7 +37,6 @@
     text-decoration: none;
     @include navtext;
     align-items: center;
-
 }
 
 .navigation__link:hover {
@@ -52,7 +51,6 @@
 
 .navigation__link--home {
     background: url(../../img/nav/nav-home.png) center center no-repeat;
-
 }
 
 .navigation__menu {
@@ -146,26 +144,21 @@
 
 .navigation__link--stactics {
     background: url(../../img/nav/nav-bar-chart.png) center center no-repeat;
-
 }
 
 .navigation__link--users {
     background: url(../../img/nav/nav-user.png) center center no-repeat;
-
 }
 
 .navigation__link--settings {
     background: url(../../img/nav/nav-settings.png) center center no-repeat;
-
 }
 
 .navigation__link--quires {
     background: url(../../img/nav/nav-information.png) center center no-repeat;
-
 }
 
 .navigation___exit {
-
     padding: 0;
     display: flex;
     align-items: center;
@@ -180,7 +173,6 @@
     cursor: pointer;
     outline: none;
     background: url(../../img/nav/nav-power-button.png) center center no-repeat;
-
 }
 
 .navigation__exit--btn:hover {

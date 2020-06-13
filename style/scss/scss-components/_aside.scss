@@ -22,7 +22,6 @@
     border-bottom: 7px solid transparent;
     border-left: 7px solid #FC745B;
     transform: rotate(90deg);
-
 }
 
 .aside__container--useres:hover {
@@ -48,6 +47,7 @@
         display: block;
     }
 }
+
 .aside__traingle--like {
     display: none;
     position: absolute;
@@ -71,7 +71,7 @@
     height: 47px;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .aside__link:hover {
@@ -148,17 +148,15 @@
                 height: 16px;
                 background: url(../../img/aside/chat-gray.png);
             }
-            
+
         }
 
         .aside__person--valera {
-
             width: 42px;
         }
 
         .aside__person:hover {
             background: #e7e7e7;
-
         }
 
     }
@@ -175,7 +173,6 @@
             border: none;
             border-bottom: 1px solid #E9E9E9;
             width: 170px;
-
         }
 
         .search__text::placeholder {
@@ -183,7 +180,6 @@
             font-weight: 300;
             font-size: 10px;
             color: #C0C0C0;
-
         }
 
         .search__submit {
@@ -228,19 +224,18 @@
                     width: 55px;
                     height: 55px;
                     background: url(../../img/aside/companys-full/rdio.png) center center no-repeat;
-
                 }
+
                 .aside__link--css-3 {
                     width: 55px;
                     height: 55px;
                     background: url(../../img/aside/companys-full/css-3.png) center center no-repeat;
-
                 }
+
                 .aside__link--deviantart {
                     width: 55px;
                     height: 55px;
                     background: url(../../img/aside/companys-full/deviantart.png) center center no-repeat;
-
                 }
 
                 .aside__link--top {
@@ -248,7 +243,7 @@
                     margin-bottom: 2px;
                 }
             }
-            
+
             .aside__links--bottom {
                 display: flex;
 
@@ -257,11 +252,13 @@
                     height: 55px;
                     background: url(../../img/aside/companys-full/xing.png) center center no-repeat;
                 }
+
                 .aside__link--vimeo {
                     width: 55px;
                     height: 55px;
                     background: url(../../img/aside/companys-full/vimeo.png) center center no-repeat;
                 }
+
                 .aside__link--vk {
                     width: 55px;
                     height: 55px;

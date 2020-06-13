@@ -3,7 +3,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  outline: none;
 }
 
 body {
@@ -973,7 +972,7 @@ button {
           justify-content: space-between;
 }
 
-/*===main===*/
+/*===thes main content===*/
 .main {
   width: 100%;
   display: -webkit-box;
@@ -987,7 +986,7 @@ button {
   background: #ECECEC;
 }
 
-/*===top===*/
+/*===top of the main===*/
 .main__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1198,7 +1197,7 @@ button {
   border-left: 2px solid transparent;
 }
 
-/*===bottom===*/
+/*===bottomt of the main===*/
 .main__bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1411,7 +1410,7 @@ button {
           justify-content: space-between;
 }
 
-/*===task===*/
+/*===task  of the main===*/
 .task {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1527,7 +1526,7 @@ button {
   margin-right: 5px;
 }
 
-/*===analysis===*/
+/*====== analysis of the main ======*/
 .analysis {
   width: 100%;
   display: -webkit-box;
@@ -1657,6 +1656,7 @@ button {
   margin-left: 20px;
 }
 
+/*=======Desktop========*/
 @media (max-width: 1180px) {
   .main__bottom {
     -webkit-box-orient: vertical;
@@ -1698,6 +1698,7 @@ button {
   }
 }
 
+/*=======iPad pro========*/
 @media (max-width: 1024px) {
   .container__inner {
     -webkit-box-orient: vertical;
@@ -1854,6 +1855,7 @@ button {
   }
 }
 
+/*=======iPad========*/
 @media (max-width: 768px) {
   .navigation {
     display: none;
@@ -2161,7 +2163,7 @@ button {
   }
 }
 
-/*iphone X*/
+/*=======iphone X========*/
 @media (max-width: 375px) {
   .common__title {
     -webkit-box-orient: vertical;
@@ -2190,7 +2192,7 @@ button {
   }
 }
 
-/*iphone 5*/
+/*=======iPhone 5s ========*/
 @media (max-width: 320px) {
   .monthly__menu {
     width: 100%;

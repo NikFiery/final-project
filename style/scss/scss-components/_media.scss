@@ -1,3 +1,4 @@
+            /*=======Desktop========*/
 @media (max-width: 1180px) {
 
     .main__bottom {
@@ -39,6 +40,7 @@
     }
 }
 
+            /*=======iPad pro========*/
 @media (max-width: 1024px) {
 
     .container__inner {
@@ -174,7 +176,6 @@
     }
 }
 
-
 @media (max-width: 992px) {
 
     .graph__img {
@@ -187,7 +188,7 @@
 
 }
 
-
+            /*=======iPad========*/
 @media (max-width: 768px) {
     .navigation {
         display: none;
@@ -223,7 +224,6 @@
         display: none;
     }
 
-
     .header__burger {
         display: flex;
         flex-direction: column;
@@ -237,11 +237,7 @@
             background: #000000;
             border-radius: 2px;
 
-
         }
-
-
-
     }
 
     .profile__mobile {
@@ -291,13 +287,11 @@
     }
 
     .graph__img {
-
         background: url(../../img/main/line.png) center center no-repeat;
         width: 428px;
         height: 62px;
         margin-left: 20px;
         margin-bottom: 20px;
-
     }
 
     .top__hour {
@@ -377,8 +371,6 @@
     .top__hour {
         margin-top: 20px;
     }
-
-
 }
 
 @media (max-width: 567px) {
@@ -400,10 +392,8 @@
     }
 
     .analysis .analysis__card--second {
-
         margin-left: 20px;
         margin: 20px 0 auto;
-
     }
 
     .main__bottom-left {
@@ -522,8 +512,7 @@
         width: 100%;
     }
 }
-
-/*iphone X*/
+            /*=======iphone X========*/
 @media (max-width: 375px) {
 
 
@@ -541,7 +530,6 @@
             span {
                 margin: 3px 0;
             }
-
         }
 
         .common__comment {
@@ -556,10 +544,9 @@
     .aside__link--top img {
         padding: 8px;
     }
-
 }
 
-/*iphone 5*/
+            /*=======iPhone 5s ========*/
 @media (max-width: 320px) {
 
     .monthly__menu {
@@ -567,13 +554,11 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-
     }
 
     .top__monthly a img {
         transform: rotate(2972deg);
         transition: 5s;
-
     }
 
     .header__bottom {
@@ -603,6 +588,4 @@
     .aside__main .aside__company .aside__links {
         margin-right: 4px;
     }
-
-
 }

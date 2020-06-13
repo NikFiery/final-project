@@ -9,7 +9,6 @@
     border-bottom: 1px solid #e9e9e9;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .profile__mobile {
@@ -22,13 +21,12 @@
 
 .header__left-container {
     margin-right: auto;
-    display: flex;
-    
+    display: flex;    
 }
+
 .header__right-container {
     margin-left: auto;
-    display: flex;
-    
+    display: flex;   
 }
 
 
@@ -52,6 +50,7 @@
 .top__section--left {
     border-right: 1px solid #F1F1F1;
 }
+
 .top__section--right {
     border-left: 1px solid #F1F1F1;
 }
@@ -88,7 +87,6 @@
             @include navtext;
             font-size: 11px;
             color: #C8C8C8;
-
         }
     }
 
@@ -133,13 +131,11 @@
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-
     }
 
     span {
         @include navtext;
         color: #BFBFBF;
-
     }
 }
 
@@ -197,7 +193,6 @@
                 border-right: transparent 2px solid;
                 border-bottom: 5px solid #A889E9;
                 border-left: transparent 2px solid;
-
             }
 
             .daily__level-two {
@@ -213,13 +208,11 @@
                 width: 0px;
                 height: 0px;
                 content: '';
-
                 border-top: 5px solid #FD5670;
                 border-right: 2px solid transparent;
                 border-left: 2px solid transparent;
 
             }
         }
-
     }
 }

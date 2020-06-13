@@ -1,22 +1,22 @@
 .aside__container {
-    background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 266px;
-    position: relative;
+    background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
 }
 
 .aside__menu {
-    display: flex;
     position: relative;
+    display: flex;
     justify-content: space-around;
 }
 
 .aside__traingle--users {
-    display: none;
     position: absolute;
     top: 43px;
     left: 45px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -31,10 +31,10 @@
 }
 
 .aside__traingle--chat {
-    display: none;
     position: absolute;
     top: 43px;
     left: 130px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -49,10 +49,10 @@
 }
 
 .aside__traingle--like {
-    display: none;
     position: absolute;
     top: 43px;
     left: 220px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -67,11 +67,10 @@
 }
 
 .aside__link {
-    width: 80px;
-    height: 47px;
     display: flex;
     justify-content: center;
-
+    width: 80px;
+    height: 47px;
 }
 
 .aside__link:hover {
@@ -110,8 +109,8 @@
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
-        overflow: scroll;
         height: 470px;
+        overflow: scroll;
 
         .aside__line {
             width: 85%;
@@ -122,16 +121,16 @@
 
         .aside__person {
             display: flex;
-            padding: 24px 10px 19px 20px;
             align-items: center;
             justify-content: center;
+            padding: 24px 10px 19px 20px;
 
             .information {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                padding-left: 15px;
                 width: 175px;
+                padding-left: 15px;
 
                 h3 {
                     @include mainavtext
@@ -148,7 +147,6 @@
                 height: 16px;
                 background: url(../../img/aside/chat-gray.png);
             }
-
         }
 
         .aside__person--valera {
@@ -158,21 +156,20 @@
         .aside__person:hover {
             background: #e7e7e7;
         }
-
     }
 
     .aside__form {
+        display: flex;
+        justify-content: center;
         border-top: 1px solid #F1F1F1;
         border-bottom: 1px solid #F1F1F1;
         padding: 15px 0;
         background: #FCFCFC;
-        display: flex;
-        justify-content: center;
 
         .search__text {
+            width: 170px;
             border: none;
             border-bottom: 1px solid #E9E9E9;
-            width: 170px;
         }
 
         .search__text::placeholder {
@@ -183,21 +180,21 @@
         }
 
         .search__submit {
-            background: url(../../img/header/header-zoom.png) center center no-repeat;
             width: 20px;
             height: 20px;
-            border: none;
-            cursor: pointer;
             margin: 0px 10px;
+            cursor: pointer;
+            background: url(../../img/header/header-zoom.png) center center no-repeat;
+            border: none; 
         }
 
         .search__reset {
-            background: url(../../img/aside/pen.png) center center no-repeat;
             width: 20px;
             height: 20px;
-            border: none;
-            cursor: pointer;
             margin-right: 7px;
+            cursor: pointer;
+            background: url(../../img/aside/pen.png) center center no-repeat;
+            border: none;
         }
     }
 
@@ -208,8 +205,8 @@
         justify-content: center;
 
         h3 {
-            @include mainavtext;
             margin: 27px 0;
+            @include mainavtext;
         }
 
         .aside__links {

@@ -9,16 +9,16 @@
     display: block;
     width: 70px;
     height: 70px;
-    box-shadow: 9px -2px 22px -9px #000000;
     background: url(../../img/nav/logo.png) center center no-repeat;
+    box-shadow: 9px -2px 22px -9px #000000;
 }
 
 .navigation__container {
     position: relative;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
     background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
 }
 
@@ -34,9 +34,8 @@
     align-items: center;
     width: 70px;
     height: 70px;
-    text-decoration: none;
     @include navtext;
-    align-items: center;
+    text-decoration: none;
 }
 
 .navigation__link:hover {
@@ -58,10 +57,10 @@
 }
 
 .navigation__traingle--home {
-    display: none;
     position: absolute;
     top: 33px;
     left: 70px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -75,10 +74,10 @@
 }
 
 .navigation__traingle--stactics {
-    display: none;
     position: absolute;
     top: 99px;
     left: 70px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -92,10 +91,10 @@
 }
 
 .navigation__traingle--users {
-    display: none;
     position: absolute;
     top: 171px;
     left: 70px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -109,10 +108,10 @@
 }
 
 .navigation__traingle--settings {
-    display: none;
     position: absolute;
     top: 241px;
     left: 70px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -126,10 +125,10 @@
 }
 
 .navigation__traingle--quires {
-    display: none;
     position: absolute;
     top: 311px;
     left: 70px;
+    display: none;
     content: '';
     border-top: 7px solid transparent;
     border-bottom: 7px solid transparent;
@@ -159,12 +158,12 @@
 }
 
 .navigation___exit {
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: auto;
     margin-bottom: 20px;
+    padding: 0;
 }
 
 .navigation__exit--btn {
@@ -178,8 +177,8 @@
 .navigation__exit--btn:hover {
     width: 20px;
     height: 20px;
-    transform: rotate(365deg);
     background: url(../../img/nav/nav-power-button.png) center center no-repeat;
+    transform: rotate(365deg);
 }
 
 .navigation__exit--btn:active {

@@ -6,9 +6,9 @@
 
 .header__top {
     display: flex;
-    border-bottom: 1px solid #e9e9e9;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #e9e9e9;
 }
 
 .profile__mobile {
@@ -20,13 +20,13 @@
 }
 
 .header__left-container {
+    display: flex;
     margin-right: auto;
-    display: flex;    
 }
 
 .header__right-container {
+    display: flex;
     margin-left: auto;
-    display: flex;   
 }
 
 
@@ -36,15 +36,15 @@
 }
 
 .top__section:hover {
-    transition: 0.15s;
-    box-shadow: inset 0px 0px 10px 0px #b9b9b9;
     border-radius: 10%;
+    box-shadow: inset 0px 0px 10px 0px #b9b9b9;
+    transition: 0.15s;
 }
 
 .top__section:active {
+    border-radius: 30%;
     box-shadow: inset 0px 0px 10px 0px #444444;
     transform: rotateZ(50deg);
-    border-radius: 30%;
 }
 
 .top__section--left {
@@ -69,14 +69,14 @@
 }
 
 .top__section-search {
-    width: 299px;
-    height: 34px;
-    border: 1px solid #F1F1F1;
-    border-radius: 50px/100px;
-    background: #F8F8F8;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 299px;
+    height: 34px;
+    background: #F8F8F8;
+    border: 1px solid #F1F1F1;
+    border-radius: 50px/100px;
 
     input {
         width: 90%;
@@ -113,10 +113,10 @@
 }
 
 .top__section--profile {
-    width: 230px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 230px;
 }
 
 .top__section--data {
@@ -142,12 +142,9 @@
 .top__section--points {
     width: 5px;
     height: 18px;
-    background: url(../../img/header/header-ellipse.png) center center no-repeat;
     padding-right: 25px;
+    background: url(../../img/header/header-ellipse.png) center center no-repeat;
 }
-
-
-
 
 .header__bottom {
     display: flex;
@@ -173,8 +170,6 @@
             background-clip: text;
         }
 
-
-
         .daily__levels {
             display: flex;
 
@@ -189,16 +184,16 @@
                 left: -7px;
                 width: 0px;
                 height: 0px;
-                content: '';
                 border-right: transparent 2px solid;
                 border-bottom: 5px solid #A889E9;
                 border-left: transparent 2px solid;
+                content: '';
             }
 
             .daily__level-two {
-                @include arrowstext;
                 position: relative;
                 margin-left: 10px;
+                @include arrowstext;
             }
 
             .daily__level-two::before {
@@ -207,11 +202,10 @@
                 left: -7px;
                 width: 0px;
                 height: 0px;
-                content: '';
                 border-top: 5px solid #FD5670;
                 border-right: 2px solid transparent;
                 border-left: 2px solid transparent;
-
+                content: '';
             }
         }
     }

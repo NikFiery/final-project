@@ -18,15 +18,15 @@
 
 .container__inner {
     display: flex;
-    width: 100%;
     justify-content: space-between;
+    width: 100%;
 }
 
                         /*===thes main content===*/
 .main {
-    width: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding: 20px;
     background: #ECECEC;
 }
@@ -39,14 +39,14 @@
 }
 
 .top__monthly {
-    width: 100%;
-    height: 265px;
     display: flex;
     flex-direction: column;
-    margin-right: 10px;
-    background: #ffffff;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    height: 265px;
+    margin-right: 10px;
+    background: #ffffff;
 }
 
 .mouthly__graph--top {
@@ -64,16 +64,16 @@
 
 .graph__img {
     align-self: flex-end;
-    background: url(../../img/main/line.png) center center no-repeat;
     width: 574px;
     height: 62px;
     margin-left: 20px;
     margin-bottom: 20px;
+    background: url(../../img/main/line.png) center center no-repeat;
 }
 
 .graph__months {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
 
     li {
         @include arrowstext;
@@ -83,9 +83,9 @@
 
 .monthly__menu {
     display: flex;
+    justify-content: space-between;
     width: 80%;
     margin: 0 auto;
-    justify-content: space-between;
 
     h3 {
         @include mainavtext;
@@ -98,16 +98,16 @@
 
         .monthly__btn {
             @include arrowstext;
+            margin-right: 15px;
             border: none;
             background: none;
-            margin-right: 15px;
         }
 
         :hover {
-            background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
             border-radius: 50px/100px;
-            color: #ffffff;
             transition: 0.2s;
+            background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
+            color: #ffffff;
         }
 
         .monthly__points {
@@ -121,21 +121,20 @@
 
 
 .top__hour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 263px;
     height: 265px;
     margin-left: auto;
     padding: 20px;
     margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: #ffffff;
 
-
     h3 {
-        @include mainavtext;
         padding-bottom: 14px;
+        @include mainavtext;
     }
 
     .top__hour--img {
@@ -167,9 +166,9 @@
         }
 
         .level-two {
-            @include arrowstext;
             position: relative;
             margin-left: 10px;
+            @include arrowstext;
         }
 
         .level-two::before {
@@ -179,15 +178,12 @@
             width: 0px;
             height: 0px;
             content: '';
-
             border-top: 5px solid #FD5670;
             border-right: 2px solid transparent;
             border-left: 2px solid transparent;
-
         }
     }
 }
-
                         /*===bottomt of the main===*/
 .main__bottom {
     display: flex;
@@ -195,15 +191,14 @@
 }
 
 .main__bottom-left {
-    background-color: #ffffff;
     margin-right: 10px;
-
+    background-color: #ffffff;
 }
 
 .container__reviews {
-    padding: 30px;
     width: 100%;
     height: 510px;
+    padding: 30px;
 
     h3 {
         @include mainavtext;
@@ -240,9 +235,9 @@
         }
 
         .msturner__title--comment {
-            background: #FCFCFC;
-            border: 1px solid #F1F1F1;
             padding: 15px;
+            border: 1px solid #F1F1F1;
+            background: #FCFCFC;
 
             span {
                 @include navtext;
@@ -257,9 +252,9 @@
         padding: 20px 0;
 
         .additionally__block {
-            border-right: 4px solid #F1F1F1;
             margin-left: 80px;
             margin-right: 13px;
+            border-right: 4px solid #F1F1F1;
         }
 
         .additionally__comments {
@@ -268,8 +263,8 @@
 
             .additionally__comment--top {
                 margin-bottom: 15px;
-                border: 1px solid #F1F1F1;
                 padding: 15px;
+                border: 1px solid #F1F1F1;
                 background: #FCFCFC;
 
                 span {
@@ -280,9 +275,9 @@
             }
 
             .additionally__comment--bottom {
-                background: #FCFCFC;
-                border: 1px solid #F1F1F1;
                 padding: 15px;
+                border: 1px solid #F1F1F1;
+                background: #FCFCFC;
 
                 span {
                     @include navtext;
@@ -314,9 +309,9 @@
     }
 
     .mrquill__title--comment {
+        padding: 20px;
         background: #FCFCFC;
         border: 1px solid #F1F1F1;
-        padding: 20px;
 
         span {
             @include navtext;
@@ -329,22 +324,20 @@
 .main__bottom-right {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: space-between;
-
 }
 
-                    /*===task  of the main===*/
+                    /*==task  of the main===*/
 .task {
     display: flex;
     flex-direction: column;
-    background: #ffffff;
+    justify-content: space-between;
     width: 471px;
     height: 245px;
     margin-left: 10px;
     margin-bottom: 10px;
     padding: 20px;
-    justify-content: space-between;
+    background: #ffffff;
 
     h3 {
         @include mainavtext;
@@ -353,14 +346,14 @@
     ul {
         display: flex;
         flex-direction: column;
-        list-style-type: none;
         margin: 0;
         padding: 0;
+        list-style-type: none;
 
         li:nth-child(even) {
-            background: #FCFCFC;
             border-top: 1px solid #EDEDED;
             border-bottom: 1px solid #EDEDED;
+            background: #FCFCFC;
         }
 
         li:nth-child(1) {
@@ -382,10 +375,10 @@
             }
 
             .task__btn:active {
-                background: url(../../img/main/btn-ok.png);
                 width: 17px;
                 height: 17px;
                 border: none;
+                background: url(../../img/main/btn-ok.png);
             }
 
             h3 {
@@ -397,10 +390,10 @@
             }
 
             span {
+                margin: 14px;
                 @include navtext;
                 font-size: 12px;
                 color: #BFBFBF;
-                margin: 14px;
             }
 
             .task__time {
@@ -410,10 +403,8 @@
             }
 
             .task__time::before {
-
-                content: url(../../img/main/time.png);
                 margin-right: 5px;
-
+                content: url(../../img/main/time.png);
             }
         }
     }
@@ -421,18 +412,18 @@
 
             /*====== analysis of the main ======*/
 .analysis {
-    width: 100%;
     display: flex;
+    width: 100%;
     padding-left: 10px;
     padding-top: 10px;
 
     .analysis__card {
-        width: 225px;
-        height: 245px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 225px;
+        height: 245px;
         background: #ffffff;
 
         .analysis__img--progress {
@@ -452,8 +443,8 @@
         }
 
         h3 {
-            @include mainavtext;
             padding-bottom: 17px;
+            @include mainavtext;
         }
 
         img {
@@ -463,21 +454,21 @@
 
 
         .analysis__money {
+            padding-top: 13px;
             @include titletext;
             font-size: 20px;
             background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            padding-top: 13px;
         }
 
         .analysis__money--violet {
+            padding-top: 13px;
             background: linear-gradient(77deg, rgb(112, 138, 230) 0%, rgb(136, 65, 175) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            padding-top: 13px;
         }
 
         div {
@@ -500,9 +491,9 @@
             }
 
             .level-two {
-                @include arrowstext;
                 position: relative;
                 margin-left: 10px;
+                @include arrowstext;
             }
 
             .level-two::before {
@@ -512,7 +503,6 @@
                 width: 0px;
                 height: 0px;
                 content: '';
-
                 border-top: 5px solid #FD5670;
                 border-right: 2px solid transparent;
                 border-left: 2px solid transparent;

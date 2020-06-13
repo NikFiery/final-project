@@ -2,38 +2,38 @@
     font-family: 'Lato', sans-serif;
     /*navtext - highlight navigation*/
     font-weight: 400;
-    color: #ffffff;
     font-size: calc(10px + 0.137vw);
+    color: #ffffff;
 }
 
 @mixin titletext {
     font-family: 'Lato', sans-serif;
     /*titletext - headers and titles*/
     font-weight: bold;
-    color: #777777;
     font-size: calc(10px + 0.137vw);
+    color: #777777;
 }
 
 @mixin mainavtext {
     font-family: 'Lato', sans-serif;
     /*mainavtext - classic style for main content*/
     font-weight: bold;
-    color: #777777;
     font-size: calc(16px + 0.1vw);
+    color: #777777;
 }
 
 @mixin arrowstext {
     font-family: 'Lato', sans-serif;
     /*arrowstext - used for decorative arrows*/
     font-weight: bold;
-    color: #BFBFBF;
     font-size: calc(10px + 0.137vw);
+    color: #BFBFBF;
 }
 
 @mixin bigtext {
     font-family: 'Lato', sans-serif;
     /*b - big text*/
     font-weight: 900;
-    color: #777777;
     font-size: calc(10px + 0.137vw);
+    color: #777777;
 }

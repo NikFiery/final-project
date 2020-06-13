@@ -193,6 +193,11 @@
         justify-content: center;
     }
 
+    .header__burger {
+        transform: rotate(2880deg);
+        transition: 2s;
+    }
+
     .top__section-search {
         display: none;
     }
@@ -542,11 +547,6 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-    }
-
-    .top__monthly a img {
-        transform: rotate(2972deg);
-        transition: 5s;
     }
 
     .header__bottom {

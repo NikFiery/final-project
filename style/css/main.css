@@ -1859,6 +1859,12 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .header__burger {
+    -webkit-transform: rotate(2880deg);
+            transform: rotate(2880deg);
+    -webkit-transition: 2s;
+    transition: 2s;
+  }
   .top__section-search {
     display: none;
   }
@@ -2193,12 +2199,6 @@ button {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-  }
-  .top__monthly a img {
-    -webkit-transform: rotate(2972deg);
-            transform: rotate(2972deg);
-    -webkit-transition: 5s;
-    transition: 5s;
   }
   .header__bottom {
     width: 100%;

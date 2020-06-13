@@ -1,4 +1,15 @@
-@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-size: 0px;
+}
+
 button {
   cursor: pointer;
   border: none;
@@ -23,7 +34,7 @@ button {
   height: 70px;
   -webkit-box-shadow: 9px -2px 22px -9px #000000;
           box-shadow: 9px -2px 22px -9px #000000;
-  background: url(../../img/logo.png) center center no-repeat;
+  background: url(../../img/nav/logo.png) center center no-repeat;
 }
 
 .navigation__container {
@@ -222,7 +233,7 @@ button {
 .navigation__exit--btn:active {
   width: 20px;
   height: 20px;
-  background: url(../../img/nav/ок-png-5.png) center center no-repeat;
+  background: url(../../img/nav/nav-btn-black.png) center center no-repeat;
   background-size: cover;
   -webkit-transform: rotate(-365deg);
           transform: rotate(-365deg);
@@ -933,18 +944,6 @@ button {
   margin-top: 10px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  outline: none;
-}
-
-body {
-  font-size: 0px;
-}
-
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1148,7 +1147,7 @@ body {
 .top__hour .top__hour--img {
   width: 156px;
   height: 161px;
-  background: url(../../img/main/Hour.jpg) center center no-repeat;
+  background: url(../../img/main/hour.jpg) center center no-repeat;
   background-size: cover;
 }
 

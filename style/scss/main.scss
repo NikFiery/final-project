@@ -1,19 +1,8 @@
+@import '../scss/scss-components/settings';
 @import '../scss/scss-components/variables';
 @import '../scss/scss-components/navigation';
 @import '../scss/scss-components/header';
 @import '../scss/scss-components/aside';
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-}
-
-body {
-    font-size: 0px;
-
-}
 
 .wrapper {
     display: flex;
@@ -161,7 +150,7 @@ body {
     .top__hour--img {
         width: 156px;
         height: 161px;
-        background: url(../../img/main/Hour.jpg) center center no-repeat;
+        background: url(../../img/main/hour.jpg) center center no-repeat;
         background-size: cover;
     }
 

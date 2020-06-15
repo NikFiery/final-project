@@ -834,18 +834,18 @@ button {
   width: 20px;
   height: 20px;
   margin: 0px 10px;
-  cursor: pointer;
   background: url(../../img/header/header-zoom.png) center center no-repeat;
   border: none;
+  cursor: pointer;
 }
 
 .aside__main .aside__form .search__reset {
   width: 20px;
   height: 20px;
   margin-right: 7px;
-  cursor: pointer;
   background: url(../../img/aside/pen.png) center center no-repeat;
   border: none;
+  cursor: pointer;
 }
 
 .aside__main .aside__company {
@@ -1127,7 +1127,6 @@ button {
           align-items: center;
   width: 263px;
   height: 265px;
-  margin-left: auto;
   padding: 20px;
   margin-left: 10px;
   background: #ffffff;
@@ -1298,8 +1297,7 @@ button {
 }
 
 .reviews__msturner .msturner__additionally .additionally__block {
-  margin-left: 80px;
-  margin-right: 13px;
+  margin: 0 13px 0 80px;
   border-right: 4px solid #F1F1F1;
 }
 
@@ -1487,7 +1485,7 @@ button {
 
 .task ul li h3 {
   font-family: 'Lato', sans-serif;
-  /*b - big text*/
+  /*big text*/
   font-weight: 900;
   font-size: calc(10px + 0.137vw);
   color: #777777;
@@ -1719,6 +1717,9 @@ button {
   .reviews {
     width: 641px;
     margin: 0 auto;
+  }
+  .analysis {
+    padding-left: 0px;
   }
   .msturner__title--profile > span {
     font-size: 16px;
@@ -2111,6 +2112,14 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .task ul li .task__btn {
+    margin: 2px 0;
+  }
+  .task ul li h3 {
+    -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+            order: -2;
   }
   .task ul li span {
     margin: 2px;

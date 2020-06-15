@@ -57,7 +57,7 @@
     list-style-type: none;
 
     li {
-        @include arrowstext;
+        @include arrows-text;
         margin-bottom: 21px;
     }
 }
@@ -76,7 +76,7 @@
     list-style-type: none;
 
     li {
-        @include arrowstext;
+        @include arrows-text;
         margin-left: 28px;
     }
 }
@@ -88,7 +88,7 @@
     margin: 0 auto;
 
     h3 {
-        @include mainavtext;
+        @include main-text;
         color: #767676;
 
     }
@@ -97,7 +97,7 @@
         display: flex;
 
         .monthly__btn {
-            @include arrowstext;
+            @include arrows-text;
             margin-right: 15px;
             border: none;
             background: none;
@@ -127,14 +127,13 @@
     align-items: center;
     width: 263px;
     height: 265px;
-    margin-left: auto;
     padding: 20px;
     margin-left: 10px;
     background: #ffffff;
 
     h3 {
         padding-bottom: 14px;
-        @include mainavtext;
+        @include main-text;
     }
 
     .top__hour--img {
@@ -149,7 +148,7 @@
 
         .level {
             position: relative;
-            @include arrowstext;
+            @include arrows-text;
         }
 
         .level::before {
@@ -162,13 +161,12 @@
             border-right: transparent 2px solid;
             border-bottom: 5px solid #A889E9;
             border-left: transparent 2px solid;
-
         }
 
         .level-two {
             position: relative;
             margin-left: 10px;
-            @include arrowstext;
+            @include arrows-text;
         }
 
         .level-two::before {
@@ -201,7 +199,7 @@
     padding: 30px;
 
     h3 {
-        @include mainavtext;
+        @include main-text;
     }
 }
 
@@ -228,7 +226,7 @@
             }
 
             span {
-                @include navtext;
+                @include nav-text;
                 color: #979796;
                 font-size: 8px;
             }
@@ -240,7 +238,7 @@
             background: #FCFCFC;
 
             span {
-                @include navtext;
+                @include nav-text;
                 font-size: 12px;
                 color: #C8C8C8;
             }
@@ -252,8 +250,7 @@
         padding: 20px 0;
 
         .additionally__block {
-            margin-left: 80px;
-            margin-right: 13px;
+            margin: 0 13px 0 80px;
             border-right: 4px solid #F1F1F1;
         }
 
@@ -268,7 +265,7 @@
                 background: #FCFCFC;
 
                 span {
-                    @include navtext;
+                    @include nav-text;
                     font-size: 12px;
                     color: #C8C8C8;
                 }
@@ -280,7 +277,7 @@
                 background: #FCFCFC;
 
                 span {
-                    @include navtext;
+                    @include nav-text;
                     font-size: 12px;
                     color: #C8C8C8;
                 }
@@ -302,7 +299,7 @@
         }
 
         span {
-            @include navtext;
+            @include nav-text;
             color: #979796;
             font-size: 8px;
         }
@@ -314,7 +311,7 @@
         border: 1px solid #F1F1F1;
 
         span {
-            @include navtext;
+            @include nav-text;
             font-size: 12px;
             color: #C8C8C8;
         }
@@ -340,7 +337,7 @@
     background: #ffffff;
 
     h3 {
-        @include mainavtext;
+        @include main-text;
     }
 
     ul {
@@ -382,7 +379,7 @@
             }
 
             h3 {
-                @include bigtext;
+                @include big-text;
                 background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -391,13 +388,13 @@
 
             span {
                 margin: 14px;
-                @include navtext;
+                @include nav-text;
                 font-size: 12px;
                 color: #BFBFBF;
             }
 
             .task__time {
-                @include titletext;
+                @include title-text;
                 color: #9C9C9C;
 
             }
@@ -444,7 +441,7 @@
 
         h3 {
             padding-bottom: 17px;
-            @include mainavtext;
+            @include main-text;
         }
 
         img {
@@ -455,7 +452,7 @@
 
         .analysis__money {
             padding-top: 13px;
-            @include titletext;
+            @include title-text;
             font-size: 20px;
             background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
             -webkit-background-clip: text;
@@ -475,7 +472,7 @@
 
             .level {
                 position: relative;
-                @include arrowstext;
+                @include arrows-text;
             }
 
             .level::before {
@@ -493,7 +490,7 @@
             .level-two {
                 position: relative;
                 margin-left: 10px;
-                @include arrowstext;
+                @include arrows-text;
             }
 
             .level-two::before {

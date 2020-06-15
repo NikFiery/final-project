@@ -84,7 +84,7 @@
         background: #F8F8F8;
 
         &::placeholder {
-            @include navtext;
+            @include nav-text;
             font-size: 11px;
             color: #C8C8C8;
         }
@@ -125,7 +125,7 @@
     justify-content: center;
 
     h3 {
-        @include mainavtext;
+        @include main-text;
         font-size: 13px;
         background: linear-gradient(77deg, #fd5272 0%, #ea6d54 100%);
         -webkit-background-clip: text;
@@ -134,7 +134,7 @@
     }
 
     span {
-        @include navtext;
+        @include nav-text;
         color: #BFBFBF;
     }
 }
@@ -158,11 +158,11 @@
         margin-bottom: 22px;
 
         .daily__title {
-            @include titletext;
+            @include title-text;
         }
 
         .daily__money {
-            @include titletext;
+            @include title-text;
             font-size: 20px;
             background: linear-gradient(77deg, rgb(253, 82, 114) 0%, rgb(234, 109, 84) 100%);
             -webkit-background-clip: text;
@@ -175,7 +175,7 @@
 
             .daily__level {
                 position: relative;
-                @include arrowstext;
+                @include arrows-text;
             }
 
             .daily__level::before {
@@ -193,7 +193,7 @@
             .daily__level-two {
                 position: relative;
                 margin-left: 10px;
-                @include arrowstext;
+                @include arrows-text;
             }
 
             .daily__level-two::before {
